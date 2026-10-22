@@ -1,0 +1,274 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Marketing Performance Report — 7734 Nemours Parkway | Verandah Properties</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --teal:#008C82; --teal-deep:#006B63; --teal-wash:#E8F4F2;
+  --gold:#C9A227; --gold-wash:#FBF5E3;
+  --ink:#1F1F1F; --ink-strong:#0F0F0F; --muted:#5A5651;
+  --paper:#FFFFFF; --page:#F6F7F6; --line:#DCDFDD; --card:#FFFFFF;
+  --charcoal:#1A1A1A; --warn:#9A3B2E; --warn-wash:#FBEDEA;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --teal:#2BB3A8; --teal-deep:#5FCFC5; --teal-wash:#12302D;
+    --gold:#D9B74A; --gold-wash:#2E2814;
+    --ink:#E6E4E0; --ink-strong:#FFFFFF; --muted:#A8A39C;
+    --paper:#1B1D1C; --page:#121413; --line:#333836; --card:#1F2221;
+    --charcoal:#0C0D0D; --warn:#E59484; --warn-wash:#33201C;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --teal:#2BB3A8; --teal-deep:#5FCFC5; --teal-wash:#12302D;
+  --gold:#D9B74A; --gold-wash:#2E2814;
+  --ink:#E6E4E0; --ink-strong:#FFFFFF; --muted:#A8A39C;
+  --paper:#1B1D1C; --page:#121413; --line:#333836; --card:#1F2221;
+  --charcoal:#0C0D0D; --warn:#E59484; --warn-wash:#33201C;
+  color-scheme: dark;
+}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--page);color:var(--ink);font-family:'Jost',system-ui,-apple-system,'Segoe UI',sans-serif;font-weight:400;font-size:17px;line-height:1.65}
+img{max-width:100%;display:block}
+b,strong{font-weight:600;color:var(--ink-strong)}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,'Times New Roman',serif;color:var(--ink-strong);line-height:1.15;margin:0}
+h2{font-size:clamp(30px,4.4vw,40px);font-weight:600;margin-bottom:18px}
+h3{font-size:24px;font-weight:600;margin:28px 0 10px}
+p{margin:0 0 16px}
+.wrap{max-width:900px;margin:0 auto;background:var(--paper)}
+.pad{padding:0 clamp(20px,5vw,56px)}
+
+/* masthead */
+.mast{background:var(--charcoal);color:#fff;padding:22px clamp(20px,5vw,56px);display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;border-bottom:3px solid var(--teal)}
+.brand{display:flex;align-items:center;gap:12px;font-size:15px;letter-spacing:.04em;color:#D8D6D2}
+.mono{width:38px;height:38px;border-radius:50%;background:#008C82;display:grid;place-items:center;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:24px;color:#fff;font-weight:600}
+.issue{font-size:14px;color:#BDB9B3;text-align:right;line-height:1.5}
+
+/* hero */
+.hero{display:grid;grid-template-columns:1.05fr 1fr;gap:0;border-bottom:1px solid var(--line)}
+.hero-text{padding:40px clamp(20px,5vw,56px) 36px}
+.kicker{color:var(--teal);font-weight:500;font-size:15px;margin-bottom:10px}
+.hero h1{font-size:clamp(40px,6vw,58px);font-weight:600;margin-bottom:12px}
+.addr{color:var(--muted);font-size:15.5px;line-height:1.55}
+.hero-img{min-height:280px;background-size:cover;background-position:center}
+@media (max-width:720px){.issue{text-align:left}.hero{grid-template-columns:1fr}.hero-img{min-height:240px;order:-1}}
+
+/* recommendation */
+.stand{padding-top:40px;padding-bottom:8px}
+.rec{margin:22px 0 8px;border:1px solid var(--teal);border-radius:14px;overflow:hidden}
+.rec-top{background:var(--teal);color:#fff;padding:14px 22px;font-size:15px;font-weight:500}
+.rec-body{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:12px;padding:24px 22px;background:var(--teal-wash)}
+.rec-col{text-align:center}
+.rec-lbl{font-size:14px;color:var(--muted);margin-bottom:2px}
+.rec-num{font-family:'Cormorant Garamond',serif;font-size:clamp(40px,7vw,58px);font-weight:700;line-height:1;color:var(--ink-strong)}
+.rec-num.old{color:var(--muted);text-decoration:line-through;text-decoration-thickness:2px;font-weight:600}
+.rec-arrow{font-size:30px;color:var(--teal)}
+.rec-foot{padding:14px 22px;font-size:15px;border-top:1px solid var(--line);background:var(--paper)}
+@media (max-width:520px){.rec-body{grid-template-columns:1fr;}.rec-arrow{transform:rotate(90deg);justify-self:center}}
+
+/* sections */
+section{padding-top:44px;padding-bottom:12px;border-top:1px solid var(--line);margin-top:28px}
+.secno{color:var(--gold);font-weight:600;font-size:14px;margin-bottom:6px}
+
+/* tiles */
+.tiles{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:8px 0 26px}
+.tile{border:1px solid var(--line);border-radius:12px;padding:16px 14px;background:var(--card)}
+.tile .n{font-family:'Cormorant Garamond',serif;font-size:44px;font-weight:700;line-height:1;color:var(--teal-deep)}
+.tile .l{font-size:14.5px;color:var(--muted);margin-top:6px;line-height:1.35}
+@media (max-width:640px){.tiles{grid-template-columns:repeat(2,1fr)}}
+
+/* tables */
+.tbl{overflow-x:auto;margin:6px 0 8px;border:1px solid var(--line);border-radius:12px}
+table{border-collapse:collapse;width:100%;font-size:15.5px;min-width:520px}
+th,td{padding:11px 14px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}
+th{background:var(--page);font-weight:600;color:var(--ink-strong);font-size:14.5px}
+tr:last-child td{border-bottom:0}
+td.r,th.r{text-align:right;white-space:nowrap}
+tr.hl td{background:var(--teal-wash)}
+tr.gold td{background:var(--gold-wash)}
+.cap{font-size:14px;color:var(--muted);margin:6px 2px 18px}
+
+/* callout */
+.note{border-left:3px solid var(--gold);background:var(--gold-wash);padding:16px 20px;border-radius:0 10px 10px 0;margin:20px 0}
+.note.teal{border-left-color:var(--teal);background:var(--teal-wash)}
+.note p:last-child{margin-bottom:0}
+
+/* ladder */
+.ladder{margin:12px 0 28px;border:1px solid var(--line);border-radius:14px;padding:20px 18px 10px;background:var(--card)}
+.ladder h4{font-family:'Jost',sans-serif;font-size:15px;font-weight:600;margin:0 0 12px;color:var(--ink-strong)}
+.rung{display:grid;grid-template-columns:150px 1fr 72px;align-items:center;gap:10px;margin-bottom:9px;font-size:14.5px}
+.rung .nm{color:var(--ink);line-height:1.25}
+.rung .nm small{display:block;color:var(--muted);font-size:12.5px}
+.bar{height:16px;border-radius:8px;background:var(--line);position:relative}
+.bar i{position:absolute;left:0;top:0;bottom:0;border-radius:8px;background:#9FB7B4}
+.bar i.lsd{background:var(--muted)}
+.bar i.cur{background:var(--warn)}
+.bar i.new{background:var(--teal)}
+.rung .v{text-align:right;font-weight:600;color:var(--ink-strong)}
+.legend{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--muted);margin:12px 0 4px}
+.legend span::before{content:"";display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px;background:var(--c)}
+@media (max-width:520px){.rung{grid-template-columns:110px 1fr 60px}}
+
+/* comp cards */
+.comps{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin:10px 0 18px}
+.cc{border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--card);display:flex;flex-direction:column}
+.cc img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.cc-b{padding:14px 16px 16px;display:flex;flex-direction:column;gap:6px;flex:1}
+.cc-h{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.cc-a{font-weight:600;color:var(--ink-strong);font-size:16.5px;line-height:1.3}
+.cc-p{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:700;color:var(--ink-strong);white-space:nowrap;line-height:1}
+.pill{display:inline-block;font-size:12.5px;font-weight:600;padding:2px 10px;border-radius:20px;background:var(--teal-wash);color:var(--teal-deep);width:max-content}
+.pill.lsd{background:var(--page);color:var(--muted);border:1px solid var(--line)}
+.cc-f{font-size:14px;color:var(--muted);line-height:1.45}
+.cc-n{font-size:14.5px;line-height:1.5;margin-top:4px}
+@media (max-width:640px){.comps{grid-template-columns:1fr}}
+
+/* details */
+details{border:1px solid var(--line);border-radius:12px;margin:14px 0 20px;background:var(--card)}
+summary{cursor:pointer;padding:14px 18px;font-weight:600;color:var(--teal-deep);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:22px;font-weight:400;color:var(--teal)}
+details[open] summary::after{content:"–"}
+summary:focus-visible{outline:2px solid var(--teal);outline-offset:2px;border-radius:12px}
+.dbody{padding:4px 18px 18px}
+
+/* summary list */
+ul.sum{padding-left:20px;margin:0 0 16px}
+ul.sum li{margin-bottom:9px}
+ul.plain{padding-left:20px}
+ul.plain li{margin-bottom:8px}
+
+/* steps */
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:14px 0 22px}
+.step{border:1px solid var(--line);border-radius:12px;padding:16px;background:var(--card)}
+.step .when{font-size:13.5px;color:var(--muted)}
+.step .what{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:700;color:var(--ink-strong);line-height:1.1;margin:4px 0 6px}
+.step.now{border-color:var(--teal);background:var(--teal-wash)}
+.step p{font-size:14.5px;margin:0;line-height:1.5}
+@media (max-width:640px){.steps{grid-template-columns:1fr}}
+
+footer{margin-top:44px;background:var(--charcoal);color:#CFCBC5;padding:30px clamp(20px,5vw,56px) 34px;font-size:14px;line-height:1.6;border-top:3px solid var(--teal)}
+footer .sig{font-family:'Cormorant Garamond',serif;font-size:22px;color:#E3C35C;margin-bottom:10px;font-style:italic}
+footer b{color:#fff}
+footer a{color:#7FD3CB}
+footer .fine{color:#9C978F;font-size:12.5px;margin-top:14px}
+@media print{body{background:#fff}.wrap{max-width:none}details{break-inside:avoid}details>*{display:block}}
+
+.hero.solo{grid-template-columns:1fr;background:linear-gradient(135deg,var(--teal-wash),var(--paper))}
+.update{border:2px dashed var(--gold);background:var(--gold-wash);border-radius:12px;padding:16px 20px;margin:20px 0}
+.update .lbl{font-size:13px;font-weight:600;color:var(--gold);margin-bottom:4px;text-transform:uppercase;letter-spacing:.06em}
+</style></head><body><div class="wrap">
+<header class="mast">
+  <div class="brand"><div class="mono">V</div>Verandah Properties, LLC</div>
+  <div class="issue">Report 1 of an ongoing series<br>Issued October 23, 2026</div>
+</header>
+<div class="hero solo"><div class="hero-text">
+  <div class="kicker">Marketing Performance Report · Week One</div>
+  <h1>7734 Nemours Parkway</h1>
+  <div class="addr">Orlando, FL 32827 · Laureate Park, Lake Nona<br>3 bed / 3.5 bath · Three-story corner townhome · 2-car garage</div>
+</div></div>
+
+<div class="pad stand">
+  <h2>Where we stand</h2>
+  <p>Your investment property went live on October 19. In its first four days it has produced <b>12 inquiries and four showings</b>, and one couple who toured on Wednesday is very interested. That is a strong opening. <b>We are not recommending any change this week.</b></p>
+</div>
+
+<section class="pad">
+  <div class="secno">Section One</div>
+  <h2>Activity since launch</h2>
+  <div class="tiles">
+    <div class="tile"><div class="n">4</div><div class="l">Days on market</div></div>
+    <div class="tile"><div class="n">12</div><div class="l">Inquiries received</div></div>
+    <div class="tile"><div class="n">4</div><div class="l">Showings completed</div></div>
+    <div class="tile"><div class="n">0</div><div class="l">Applications received</div></div>
+  </div>
+  <p>Four showings in four days is the pattern we want to see at launch. Renters are not only reaching out, they are taking the next step and touring.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Source</th><th class="r">Inquiries</th><th>Notes</th></tr></thead>
+    <tbody>
+      <tr><td>Zillow Rental Network</td><td class="r">11</td><td>The primary driver of interest so far</td></tr>
+      <tr><td>Realtor.com</td><td class="r">1</td><td>—</td></tr>
+      <tr class="hl"><td><b>Total</b></td><td class="r"><b>12</b></td><td></td></tr>
+    </tbody>
+  </table></div>
+  <p class="cap">AppFolio prospect source tracking through October 22, 2026. Showings confirmed through Rently.</p>
+</section>
+
+<section class="pad">
+  <div class="secno">Section Two</div>
+  <h2>The showings, and what we heard</h2>
+  <p>We completed four showings this week. The strongest response came from a couple who toured on <b>Wednesday, October 21</b>. They told us they are very interested, and Becky has a call scheduled with them on Thursday afternoon to answer their questions and talk through next steps.</p>
+  <p>A prospect who asks for a follow-up call after a tour is seriously considering the property. Becky will keep you updated directly as this moves forward.</p>
+</section>
+
+<section class="pad">
+  <div class="secno">Section Three</div>
+  <h2>Why some inquiries go quiet</h2>
+  <p>The numbers above are raw counts, every inquiry that came in with nothing filtered out. We report them that way on purpose, and it means some of those 12 will never produce feedback for us to pass along.</p>
+  <p>Becky follows up personally with every inquiry, by phone and by text, and every prospect is pointed to our <b>Resident Selection Criteria</b> before a showing is arranged. That is where some of them stop. Once a prospect sees they would not qualify, because of credit, income, a pet, or a move-in date that does not work, they usually stop replying rather than tell us so.</p>
+  <details>
+    <summary>What that does and does not mean</summary>
+    <div class="dbody">
+      <p><b>It does not mean the property fell short.</b> In almost every case the prospect never raised an objection about the property, the photos or the rent. The conversation ended over qualification.</p>
+      <p><b>It does not mean we stopped following up.</b> Every inquiry is called, texted and invited to tour, and we follow up again before treating a lead as closed.</p>
+      <p><b>It does mean raw inquiry counts overstate the qualified pool.</b> Twelve inquiries is not twelve possible residents. What matters is how many are qualified, available on your timeline and still interested after a real conversation.</p>
+      <p style="margin-bottom:0">We would far rather a prospect step away at that stage than submit an application we have to decline, and far rather either of those than place a resident who should not have been approved.</p>
+    </div>
+  </details>
+</section>
+
+<section class="pad">
+  <div class="secno">Section Four</div>
+  <h2>Our read on pricing</h2>
+  <p>Four days is early, and we hold any pricing opinion loosely at this stage. But the evidence so far points one way.</p>
+  <ul class="plain">
+    <li><b>Inquiries are coming in steadily</b>, with Zillow producing most of them, which tells us the listing is being seen by the right renters.</li>
+    <li><b>Inquiries are turning into showings.</b> Four tours in four days means renters like what they see enough to visit.</li>
+    <li><b>The feedback is positive</b>, with one couple very interested and no objection raised about the rent.</li>
+  </ul>
+  <p>When a price is too high, the pattern shows up quickly: inquiries dry up in the first week, few of them turn into showings, and the prospects who do tour raise the rent as an objection. We are seeing none of those.</p>
+  <p><b>Our recommendation is to hold at the current price.</b> There is no decision we are asking you to make this week.</p>
+</section>
+
+<section class="pad">
+  <div class="secno">Section Five</div>
+  <h2>Our work this coming week</h2>
+  <ul class="plain">
+    <li>Following through with the interested couple after Thursday's call, including any questions they raise.</li>
+    <li>Gathering feedback from the other three showings.</li>
+    <li>Working every new inquiry personally, phone first and text second, and qualifying against the Resident Selection Criteria before scheduling a showing.</li>
+    <li>Monitoring competing Lake Nona townhome listings for price changes or new inventory.</li>
+    <li>Re-verifying the listing on every portal as part of the weekly cycle.</li>
+  </ul>
+</section>
+
+<section class="pad">
+  <div class="secno">Section Six</div>
+  <h2>What happens from here</h2>
+  <p>This first report is a full snapshot. From here you will receive an updated version <b>every Friday morning</b>, showing what changed that week alongside the running campaign totals, for as long as the property is being marketed. If an application comes in before then, we will let you know right away.</p>
+  <div class="tbl"><table>
+    <thead><tr><th>Measure</th><th class="r">Report 1 — Oct 23</th></tr></thead>
+    <tbody>
+      <tr><td>Days on market</td><td class="r">4</td></tr>
+      <tr><td>Inquiries received</td><td class="r">12</td></tr>
+      <tr><td>Showings completed</td><td class="r">4</td></tr>
+      <tr><td>Applications received</td><td class="r">0</td></tr>
+      <tr><td>Prospects in active follow-up</td><td class="r">1</td></tr>
+      <tr><td>Price change recommended</td><td class="r">No</td></tr>
+    </tbody>
+  </table></div>
+  <p>We will tell you when we think something needs to change. This week, we do not.</p>
+</section>
+
+<footer>
+  <div class="sig">Curating Lake Nona's Finest Rental Portfolio</div>
+  <b>Verandah Properties, LLC</b><br>
+  Pamela Syvertson, Owner &amp; Broker · License CQ1048619 · <a href="tel:4078550331">407-855-0331</a>
+  <div class="fine">Activity figures reflect AppFolio prospect source tracking and Rently showing records through October 22, 2026. Applicant information is confidential.</div>
+</footer>
+</div></body></html>
